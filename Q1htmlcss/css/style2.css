@@ -1,0 +1,230 @@
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 50%;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+h3{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+h2{
+    text-align: left;
+    vertical-align: middle;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+h4{
+    text-align: left;
+    vertical-align: middle;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+h5{
+    text-align: left;
+    margin-left: 25px;
+    vertical-align: middle;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+p{
+    text-align: justify;
+    margin-left: 20px;
+
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width: auto;
+    position: relative;
+    margin: auto;
+    height: 200px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: flow;
+}
+/*Labels*/
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.panel-heading{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    font-style: white;
+}
+.img-px{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-px2{
+    display: block;
+    width: 90%;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-px3{
+    float:left;
+    margin: 7px 25px 10px 0px;
+    display: block;
+    width: 30%;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: auto;
+
+}
+.block3{
+    flex:33%;
+    padding:10px;
+    position: relative;
+    margin: auto;
+}
+/* Next & previous buttons */
+.prev2, .next2 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 14px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+.next2 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev3, .next3 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 14px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next3 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev4, .next4 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 14px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next4 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
