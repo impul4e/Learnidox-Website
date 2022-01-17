@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Learnidox</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style2.css" rel="stylesheet"  type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Style the body */
+        body {
+            background-image: url(images/Space.png);
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        /* Header/logo Title */
+        .header {
+
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+            width: 100%;
+            height: auto;
+        }
+
+        /* Increase the font size of the heading */
+        .header h1 {
+            font-size: 40px;
+        }
+
+        /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+        .navbar {
+            background-image: url(images/Space.png);
+            overflow: hidden;
+            position: sticky;
+            top: 0;
+            font-size: 24px;
+            color: white;
+            transition: top 0.3s; /* Transition effect when sliding down (and up) */
+        }
+
+        /* Style the navigation bar links */
+        .navbar a {
+
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+            text-align: center; /* If you want the text to be centered */
+        }
+
+
+        /* Right-aligned link */
+        .navbar a.right {
+            float: right;
+        }
+
+        /* Change color on hover */
+        .navbar a:hover {
+
+            color: white;
+        }
+
+        /* Active/current link */
+        .navbar a.active {
+            background-image: url(images/Space.png);
+            color: white;
+        }
+
+
+        /* Column container */
+        .row {
+
+
+            display: flex;
+
+            flex-wrap: wrap;
+        }
+
+
+
+        /* Main column */
+        .main {
+
+            flex: 100%;
+            padding: 20px;
+        }
+
+
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: left;
+        }
+
+        /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 700px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 400px) {
+            .navbar a {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body style="background-image: url(images/Space.png);">
+
+<div class="header">
+    <img src="images/LearnidoxLogo.png" alt="" class="center">
+</div>
+
+<div class="navbar">
+    <a href="index2.html" class="active">Home</a>
+    <a href="articles.html">Articles</a>
+    <a href="about.html" class="right">About</a>
+</div>
+
+<div class="row">
+    <div class="main">
+        <table>
+            <tr>
+                <th>   </th>
+                <th></th>
+                <th>  </th>
+            </tr>
+            <tr>
+                <td>
+                    <h5>Date: 02.10.2020</h5>
+                    <a href="articles/cw1.html" target="_blank">
+                        <img class= "img-px2" src="images/CW1.png" alt="">
+                    </a>
+                </td>
+                <td>
+                    <h5>Date: 30.09.2020</h5>
+                    <a href="articles/cw2.html" target="_blank">
+                        <img class= "img-px2" src="images/CW2.png" alt="">
+                    </a>
+                </td>
+                <td>
+                    <h5>Date: 28.09.2020</h5>
+                    <a href="articles/cw3.html" target="_blank">
+                        <img class= "img-px2" src="images/CW3.png" alt="">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5>Date: 01.08.2020</h5>
+                    <a href="articles/grandfather.html" target="_blank">
+                    <img class= "img-px2" src="images/paradoxes/Grandfather Paradox2.png" alt="">
+                    </a>
+                </td>
+                <td>
+                    <h5>Date: 18.07.2020</h5>
+                    <a href="articles/theseus.html" target="_blank">
+                    <img class= "img-px2" src="images/paradoxes/Theseus.png" alt="">
+                    </a>
+                </td>
+                <td>
+                    <h5>Date: 16.07.2020</h5>
+                    <a href="articles/Cat.html" target="_blank">
+                    <img class= "img-px2" src="images/paradoxes/Cat.png" alt="">
+                    </a>
+                </td>
+            </tr>
+
+
+        </table>
+        <div class="footer">
+            <h2>Contacts:</h2>
+            <h4>Instagram: <a href="https://www.instagram.com/learnidox/" target="_blank">@learnidox</a></h4>
+            <h4>Phone Numbers:<a href="tel: +7 (708) 809-01-90 " >&nbsp;   +7 (708) 809-01-90</a></h4>
+            <h4><a href="tel: +7 (705) 524-99-31">  +7 (705) 524-99-31</a></h4>
+        </div>
+    </div>
+</div>
+<audio src="images/Saturn.mp3" autoplay loop></audio>
+</body>
+
+
+</html>
